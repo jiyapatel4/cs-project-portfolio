@@ -1,0 +1,46 @@
+h1 {
+  padding-top: 30px;
+  color: #ff8f8f;
+  font-size: 100px;
+  font-family: "Nosifer", sans-serif;
+  position: absolute;
+  left: 100px;
+  animation: blinking 1s linear infinite;
+}
+p.desc {
+  color: #ff8f8f;
+  padding-top: 170px;
+  font-family: Oxygen;
+  left: 114px;
+  position: absolute;
+  font-size: 25px;
+}
+
+h2 {
+  left: 114px;
+  padding-top: 270px;
+  color: #ff8f8f;
+  font-family: Oxygen;
+  position: absolute;
+}
+
+h2.figma {
+  left: 114px;
+  padding-top: 700px;
+  color: #ff8f8f;
+  font-family: Oxygen;
+}
+
+body {
+  background-color: #747474;
+}
+
+@keyframes blinking {
+  50% {
+    opacity: 0;
+  }
+}
+
+section.row1 {
+  padding-top: 1000px !important;
+}
