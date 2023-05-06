@@ -1,3 +1,3 @@
-# portfolio
+# CS Project Portfolio
 
-My portfolio
+A collection of my programming and design projects.
