@@ -5,42 +5,59 @@ h1 {
   font-family: "Nosifer", sans-serif;
   position: absolute;
   left: 100px;
-  animation: blinking 1s linear infinite;
 }
 p.desc {
   color: #ff8f8f;
   padding-top: 170px;
-  font-family: Oxygen;
+  font-family: sans-serif;
   left: 114px;
   position: absolute;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h2 {
   left: 114px;
-  padding-top: 270px;
+  padding-top: 220px;
   color: #ff8f8f;
-  font-family: Oxygen;
+  font-family: sans-serif;
   position: absolute;
-}
-
-h2.figma {
-  left: 114px;
-  padding-top: 700px;
-  color: #ff8f8f;
-  font-family: Oxygen;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 body {
-  background-color: #747474;
+  background-color: #636363;
+}
+
+.card {
+  background-color: #505050;
+}
+
+.card:hover {
+  background-color: #717171;
+}
+
+.title {
+  color: #ff8f8f;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: white;
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+  background-color: #505050;
+}
+
+span {
+  animation: blinking 1s linear infinite;
 }
 
 @keyframes blinking {
   50% {
     opacity: 0;
   }
-}
-
-section.row1 {
-  padding-top: 1000px !important;
 }
